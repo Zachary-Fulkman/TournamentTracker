@@ -45,7 +45,7 @@
             deleteSelectedPrizeButton = new Button();
             prizesLabel = new Label();
             prizesListBox = new ListBox();
-            CreateTournamentButton = new Button();
+            createTournamentButton = new Button();
             SuspendLayout();
             // 
             // headerLabel
@@ -230,20 +230,20 @@
             prizesListBox.Size = new Size(338, 182);
             prizesListBox.TabIndex = 21;
             // 
-            // CreateTournamentButton
+            // createTournamentButton
             // 
-            CreateTournamentButton.FlatAppearance.BorderColor = Color.Silver;
-            CreateTournamentButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(102, 102, 102);
-            CreateTournamentButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(242, 242, 242);
-            CreateTournamentButton.FlatStyle = FlatStyle.Flat;
-            CreateTournamentButton.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            CreateTournamentButton.ForeColor = Color.FromArgb(51, 153, 255);
-            CreateTournamentButton.Location = new Point(398, 638);
-            CreateTournamentButton.Name = "CreateTournamentButton";
-            CreateTournamentButton.Size = new Size(278, 99);
-            CreateTournamentButton.TabIndex = 24;
-            CreateTournamentButton.Text = "Create Tournament";
-            CreateTournamentButton.UseVisualStyleBackColor = true;
+            createTournamentButton.FlatAppearance.BorderColor = Color.Silver;
+            createTournamentButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(102, 102, 102);
+            createTournamentButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(242, 242, 242);
+            createTournamentButton.FlatStyle = FlatStyle.Flat;
+            createTournamentButton.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            createTournamentButton.ForeColor = Color.FromArgb(51, 153, 255);
+            createTournamentButton.Location = new Point(398, 638);
+            createTournamentButton.Name = "createTournamentButton";
+            createTournamentButton.Size = new Size(278, 99);
+            createTournamentButton.TabIndex = 24;
+            createTournamentButton.Text = "Create Tournament";
+            createTournamentButton.UseVisualStyleBackColor = true;
             // 
             // CreateTournamentForm
             // 
@@ -251,7 +251,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1093, 758);
-            Controls.Add(CreateTournamentButton);
+            Controls.Add(createTournamentButton);
             Controls.Add(deleteSelectedPrizeButton);
             Controls.Add(prizesLabel);
             Controls.Add(prizesListBox);
@@ -295,6 +295,6 @@
         private Button deleteSelectedPrizeButton;
         private Label prizesLabel;
         private ListBox prizesListBox;
-        private Button CreateTournamentButton;
+        private Button createTournamentButton;
     }
 }
