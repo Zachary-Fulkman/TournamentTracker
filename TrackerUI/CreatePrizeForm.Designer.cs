@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class orLabel
+    partial class CreatePrizeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(orLabel));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreatePrizeForm));
             headerLabel = new Label();
             placeNumberValue = new TextBox();
             placeNumberLabel = new Label();
@@ -113,7 +113,7 @@
             prizePercentageValue.Name = "prizePercentageValue";
             prizePercentageValue.Size = new Size(208, 35);
             prizePercentageValue.TabIndex = 30;
-            prizePercentageValue.TextChanged += textBox3_TextChanged;
+            
             // 
             // prizePercentageLabel
             // 
@@ -125,7 +125,7 @@
             prizePercentageLabel.Size = new Size(212, 37);
             prizePercentageLabel.TabIndex = 29;
             prizePercentageLabel.Text = "Prize Percentage";
-            prizePercentageLabel.Click += label3_Click;
+            
             // 
             // label1
             // 
@@ -137,7 +137,7 @@
             label1.Size = new Size(64, 37);
             label1.TabIndex = 31;
             label1.Text = "-or-";
-            label1.Click += label1_Click;
+            
             // 
             // createPrizeButton
             // 
@@ -153,8 +153,9 @@
             createPrizeButton.TabIndex = 32;
             createPrizeButton.Text = "Create Prize";
             createPrizeButton.UseVisualStyleBackColor = true;
+            createPrizeButton.Click += createPrizeButton_Click;
             // 
-            // orLabel
+            // CreatePrizeForm
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -174,7 +175,7 @@
             Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5, 6, 5, 6);
-            Name = "orLabel";
+            Name = "CreatePrizeForm";
             Text = "Create Prize";
             ResumeLayout(false);
             PerformLayout();
